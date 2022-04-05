@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container _container">
+                <div class="header__menu menu">
+                    <nav class="menu__nav">
+                        <ul class="menu__list">
+                            <li class="menu__itam"><a class="menu__link" href="sait.html">Адаптивность сайта</a></li>
+                            <li class="menu__itam"><a class="menu__link" href="teg.html">Основные теги</a></li>
+                            <li class="menu__itam"><a class="menu__link" href="grafic.html">Использование графика</a></li>
+                            <li class="menu__itam"><a class="menu__link" href="link.html">Создание гиперссылок</a></li>
+                            <li class="menu__itam"><a class="menu__link" href="table.html">Создание таблиц</a></li>
+                            <li class="menu__itam"><a class="menu__link" href="form.html">Настройка форм</a></li>
+                            <li class="menu__itam"><a class="menu__link" href="verstka.html">CSS в HTML</a></li>
+                            <li class="menu__itam"><a class="menu__link" href="block.html">Блочные элементы</a></li>
+                            <li class="menu__itam"><a class="menu__link" href="drink.html">Теги DIV иSPAN</a></li>
+                            <li class="menu__itam"><a class="menu__link" href="https://docs.google.com/document/d/1XP68yIUrWM7DkfkG_GFMeDfYJoBAKdfzEP3wvtpSX6U/edit?usp=sharing">Теги</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main__sait">
+            <section class="sait__container">
+                <div class="sait__title-logo">
+                    Адаптивность сайта
+                </div>
+                <div class="sait__title-text">
+                Адаптивная вёрстка сайта позволяет веб-страницам автоматически подстраиваться под экраны планшетов и смартфонов. Мобильный интернет-трафик растёт с каждым годом и чтобы эффективно обрабатывать этот трафик, нужно предлагать пользователям адаптивные сайты с удобным интерфейсом. 
+                Поисковые системы используют ряд критериев для оценки адаптивности сайта при просмотре на мобильных устройствах.
+                Google старается упростить пользование Интернетом для владельцев смартфонов и планшетов, отмечая в мобильной выдаче адаптированные под мобильные устройства сайты специальной пометкой mobile-friendly. 
+                В Яндексе также работает алгоритм, который отдает предпочтение сайтам с мобильной/адаптивной версией для пользователей в мобильном поиске. 
+                Проверить отображение страницы на мобильных устройствах можно на сервисах 
+                Yandex и Google 
+                Что такое адаптивная вёрстка 
+                Адаптивная вёрстка предполагает отсутствие горизонтальной полосы прокрутки и масштабируемых областей при просмотре на любом устройстве, читабельный текст и большие области для кликабельных элементов. С помощью медиазапросов можно управлять компоновкой и расположением блоков на странице, перестраивая шаблон таким образом, чтобы он адаптировался под разные размеры экранов устройств. <br>
+                Для отзывчивого дизайна ширина основного контейнера сайта задаётся в %, при этом она может быть равна как 100% ширины окна браузера, так и меньше. Ширина столбцов сетки также задаётся в %. В адаптивном дизайне ширина основного контейнера и столбцов сетки фиксируется с помощью значений в px. 
+                Рассматриваемый в данном уроке приём адаптивной резиновой вёрстки отлично сработает на двухколоночном шаблоне, сделав сайт адаптивным и удобным для просмотра на мобильных устройствах. Шаблон предполагает различную компоновку основного содержимого страниц, в этом уроке будет разобрана вёрстка главной страницы. 
+                Вёрстка главной страницы 
+                Страница состоит из трёх основных блоков: верхний колонтитул (шапка), контейнер-обёртка для основного содержимого и сайдбара, и нижний колонтитул (футер). В качестве переломных точек дизайна возьмём 768px и 480px. 
+                В первой точке скроем верхнее меню и переместим сайдбар под контейнер с постами. Во второй точке изменим расположение элементов шапки, отменим позиционирование кнопок социальных сетей в постах и отменим обтекание столбцов подвала страницы. 
+                        <div class="sait__image">
+                            <img src="assets/img/5bf0b488-6d04-4533-a2f4-b5700572d300 (1).jpg" alt="#">
+                        </div>
+                        2. Шапка страницы
+                В шапке страницы <header> поместим следующие элементы-контейнеры:
+
+                логотип <a class="logo">;
+                    <div class="sait__image">
+                        <img src="assets/img/3f04b0b8-d182-4826-85ab-7f57550d328b (1).jpg" alt="#">
+                    </div>
+                    <div class="sait__body">
+                        <a class="sait__link" href="https://vk.com/doc268915601_635110802?hash=c042d7095ae666b630&dl=08c57468d476be5268">Проверочные</a>
+                        <div id="btn-top" class="sait__link">На вверх</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+<script src="assets/js/app.js"></script>
+</html>

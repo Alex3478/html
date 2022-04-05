@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container _container">
+                <div class="header__menu menu">
+                    <nav class="menu__nav">
+                        <ul class="menu__list">
+                            <li class="menu__itam"><a class="menu__link" href="sait.html">Адаптивность сайта</a></li>
+                            <li class="menu__itam"><a class="menu__link" href="teg.html">Основные теги</a></li>
+                            <li class="menu__itam"><a class="menu__link" href="grafic.html">Использование графика</a></li>
+                            <li class="menu__itam"><a class="menu__link" href="link.html">Создание гиперссылок</a></li>
+                            <li class="menu__itam"><a class="menu__link" href="table.html">Создание таблиц</a></li>
+                            <li class="menu__itam"><a class="menu__link" href="form.html">Настройка форм</a></li>
+                            <li class="menu__itam"><a class="menu__link" href="verstka.html">CSS в HTML</a></li>
+                            <li class="menu__itam"><a class="menu__link" href="block.html">Блочные элементы</a></li>
+                            <li class="menu__itam"><a class="menu__link" href="drink.html">Теги DIV SPAN</a></li>
+                            <li class="menu__itam"><a class="menu__link" href="https://docs.google.com/document/d/1XP68yIUrWM7DkfkG_GFMeDfYJoBAKdfzEP3wvtpSX6U/edit?usp=sharing">Теги</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main__drinks">
+            <section class="drinks__container">
+                <div class="drinks__title-logo">
+                    Теги DIV  SPAN
+                </div>
+                <div class="drinks__title-text">
+                    Теги div и span, контейнеры для стилизации
+                    Вы уже узнали так много новых тегов и у каждого из них есть свой смысл. Но иногда хочется просто красиво, без придания какого-то смысла, выделить короткий фрагмент текста или несколько абзацев. Например, подсветить самые опасные на ваш взгляд болезни верстальщика красноватым фоном.
+
+                    Но раз такое выделение «бессмысленно», то и делать его «смысловыми» тегами нельзя? Да, это так.
+
+                    Но есть два специальных тега у которых «смысла» нет. Это теги <div> (сокращение от «division») и <span>. Это «чистые» элементы, которые отлично подходят для визуальной группировки других элементов. Использовать эти теги рекомендуется, если более подходящих семантических тегов не нашлось.
+
+                    Теги <div> и <span> не имеют никакого оформления по умолчанию и их почти всегда используют вместе с атрибутом class, чтобы легко добавлять им собственные стили.
+
+                    Тег <div> обычно используется для группировки крупных элементов, например, нескольких абзацев, или в качестве контейнера для создания сеток страниц. А <span> используется для выделения мелких текстовых элементов: частей слов, отдельных слов или фраз, состоящих из нескольких слов:
+                    <div class="drinks__image">
+                        <img src="assets/img/864350eb-dfb1-441a-b2a0-b1339141f71c (1).jpg" alt="#">
+                    </div>
+                    В этом задании мы используем <div> в качестве обёртки для пунктов списка определений. В таком случае в теге <dl> не должно находиться не обёрнутых в <div> пунктов списка. Мы либо оборачиваем все элементы, либо оставляем все теги <dt> и <dd> без обёрток. Смешение обёрнутых и не обёрнутых в <div> определений внутри одного списка считается ошибкой.
+                    <div class="drinks__body">
+                        <a class="drinks__link" href="https://vk.com/doc268915601_635110802?hash=c042d7095ae666b630&dl=08c57468d476be5268">Проверочные</a>
+                        <div id="btn-top" class="drinks__link">На вверх</div>
+                     </div> 
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+<script src="assets/js/app.js"></script>
+</html>
