@@ -22,6 +22,8 @@ body {
     padding: 30px 0;
 }
 .header__container {
+    padding: 20px 5px;
+    background: #3a2a53;
 }
 ._container {
 }
@@ -32,16 +34,19 @@ body {
 .menu__nav {
 }
 .menu__list {
-    column-count: 3;
+    display: flex;
+    justify-content: space-between;
 }
 .menu__itam:not(:last-child) {
     margin-bottom: 20px;
 }
 .menu__itam:hover {
-    height: 35px;
+    padding: 20px 0;
+    text-align: center;
+    background: #562c5a;
+    height: 60px;
     width: 170px;
-    border-radius: 50px;
-    background: #2b095e;
+    border-radius: 2px;
 }
 .menu__link {
     font-size: 18px;
@@ -54,19 +59,19 @@ body {
 .sait__container {
 }
 .sait__title-logo {
+    text-align: center;
     margin-bottom: 20px;
     font-size: 30px;
     font-weight: 500;
     color: #fff;
 }
 .sait__title-text {
-    margin-bottom: 20px;
+    padding: 20px 0;
     font-size: 20px;
     color: #fff;
 }
 .sait__image {
     padding: 20px;
-    text-align: left;
 }
 .sait__body {
     position: fixed;
@@ -94,18 +99,18 @@ body {
 .tag__container {
 }
 .tag__title-logo {
+    text-align: center;
     margin-bottom: 20px;
     font-size: 30px;
     font-weight: 500;
     color: #fff;
 }
 .tag__title-text {
-    margin-bottom: 20px;
+    padding: 20px 0;
     font-size: 20px;
     color: #fff;
 }
 .tag__image {
-    text-align: left;
     padding: 20px 0;
 }
 .tag__body {
@@ -134,18 +139,19 @@ body {
 .grafics__container {
 }
 .grafics__title-logo {
+    text-align: center;
     margin-bottom: 20px;
     font-size: 30px;
     font-weight: 500;
     color: #fff;
 }
 .grafics__title-text {
-    margin-bottom: 20px;
+    text-align: left;
+    padding: 20px 0;
     font-size: 20px;
     color: #fff;
 }
 .grafics__image {
-    text-align: left;
     padding: 20px 0;
 }
 .grafics__body {
@@ -174,18 +180,18 @@ body {
 .links__container {
 }
 .links__title-logo {
+    text-align: center;
     margin-bottom: 20px;
     font-size: 30px;
     font-weight: 500;
     color: #fff;
 }
 .links__title-text {
-    margin-bottom: 20px;
+    padding: 20px 0;
     font-size: 20px;
     color: #fff;
 }
 .links__image {
-    text-align: left;
     padding: 20px 0;
 }
 .links__body {
@@ -214,18 +220,18 @@ body {
 .tables__container {
 }
 .tables__title-logo {
+    text-align: center;
     margin-bottom: 20px;
     font-size: 30px;
     font-weight: 500;
     color: #fff;
 }
 .tables__title-text {
-    margin-bottom: 20px;
+    padding: 20px 0;
     font-size: 20px;
     color: #fff;
 }
 .tables__image {
-    text-align: left;
     padding: 20px 0;
 }
 .tables__body {
@@ -254,18 +260,18 @@ body {
 .forms__container {
 }
 .forms__title-logo {
+    text-align: center;
     margin-bottom: 20px;
     font-size: 30px;
     font-weight: 500;
     color: #fff;
 }
 .forms__title-text {
-    margin-bottom: 20px;
-    font-size: 20px;
+    padding: 20px 0;
+    font-size: 20px;  
     color: #fff;
 }
 .forms__image {
-    text-align: left;
     padding: 20px 0;
 }
 .forms__body {
@@ -294,18 +300,18 @@ body {
 .verst__container {
 }
 .verst__title-logo {
+    text-align: center;
     margin-bottom: 20px;
     font-size: 30px;
     font-weight: 500;
     color: #fff;
 }
 .verst__title-text {
-    margin-bottom: 20px;
+    padding: 20px 0;
     font-size: 20px;
     color: #fff;
 }
 .verst__image {
-    text-align: left;
     padding: 20px 0;
 }
 .verst__body {
@@ -334,18 +340,18 @@ body {
 .blocks__container {
 }
 .blocks__title-logo {
+    text-align: center;
     margin-bottom: 20px;
     font-size: 30px;
     font-weight: 500;
     color: #fff;
 }
 .blocks__title-text {
-    margin-bottom: 20px;
-    font-size: 20px;
+    padding: 20px 0;
+    font-size: 20px;  
     color: #fff;
 }
 .blocks__image {
-    text-align: left;
     padding: 20px 0;
 }
 .blocks__body {
@@ -374,18 +380,18 @@ body {
 .drinks__container {
 }
 .drinks__title-logo {
+    text-align: center;
     margin-bottom: 20px;
     font-size: 30px;
     font-weight: 500;
     color: #fff;
 }
 .drinks__title-text {
-    margin-bottom: 20px;
+    padding: 20px 0;
     font-size: 20px;
     color: #fff;
 }
 .drinks__image {
-    text-align: left;
     padding: 20px 0;
 }
 .drinks__body {
@@ -407,4 +413,35 @@ body {
 }
 .drinks__link:not(:last-child) {
     margin-bottom: 10px;
+}
+.main__tranks {
+}
+.tranks__container {
+}
+.tranks__title-logo {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+}
+.tranks__title-text {
+    padding: 20px 0;
+    font-size: 20px;
+    color: #fff;
+}
+.main__colors {
+}
+.colors__container {
+}
+.colors__title-logo {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+}
+.colors__image {
+    padding: 20px 0;
+    text-align: center;
 }
