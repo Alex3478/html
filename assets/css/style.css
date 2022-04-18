@@ -549,8 +549,6 @@ body {
     font-size: 30px;
     font-weight: 500;
     color: #fff;
-    animation-duration: 3s;
-    animation-name: slidein;
 }
 .tranks__title-text {
     padding: 20px 0;
